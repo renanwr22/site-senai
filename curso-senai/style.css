@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.logo-senai{
+    height: 30px;
+    width: 95px;
+}
+
+
+   .home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+   }
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #faf8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgb(253, 252, 252);
+    border: 2px solid #0c0a0a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tag {
+    background: #eee;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.btn-info,
+.btn-inscrever {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-info {
+    background: #f2f2f2;
+}
+
+.btn-inscrever {
+    background: #e63946;
+    color: white;
+}
