@@ -5,6 +5,15 @@
 .logo-senai{
     height: 30px;
     width: 95px;
+    display: block;
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+
+}
+
+.logo-senai {
+    float: right;
 }
 
 
@@ -24,7 +33,7 @@
 }
 
 header {
-    text-align: center;
+    text-align: right;
     padding: 20px
 }
 
@@ -36,16 +45,18 @@ header {
 }
 
 .card {
-    background: rgb(253, 252, 252);
-    border: 2px solid #0c0a0a;
+    background: rgb(250, 249, 249);
+    border: 2px solid #070707;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
 }
 
 .tag {
-    background: #eee;
+    background: #faf8f8;
+    border: 2px solid #0e0909;
     padding: 3px 8px;
-    border-radius: 6px;
+    border-radius: 10px;
     font-size: 12px;
     margin-right: 5px;
 }
@@ -58,7 +69,7 @@ h2 {
 .btn-inscrever {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 10px 16px;
     margin-top: 10px;
     border-radius: 6px;
     border: none;
@@ -67,10 +78,19 @@ h2 {
 }
 
 .btn-info {
-    background: #f2f2f2;
+    background: #f0efef;
+    width: 180px;
+    margin: 0% auto;
+    color: #c73636;
+    border: 2px solid #d12020;
+    border-radius: 50px;
 }
 
 .btn-inscrever {
-    background: #e63946;
-    color: white;
+    background: #d12020;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 50px;
+    color: rgb(243, 235, 235);
 }
